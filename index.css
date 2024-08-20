@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+   background-color: rgb(94, 94, 240);
+}
+.navbar{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    
+   
+    padding: 10px;
+    margin: 20px;
+}
+.navbar>div>img{
+    border-radius: 100%;
+}
+.links>a{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    margin-right: 15px;
+    color: white;
+}
+.top{
+   border: 1px solid white;
+    margin: 20px;
+    padding: 50px;
+    box-shadow: 5px 5px 5px ;
+   
+}
+h4{
+    font-weight: 300;
+    font-size: 1.5em;
+    margin-bottom:20px;
+}
+.fimage{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.fimage>div>img{
+    border-radius: 100%;
+}
+.flex{
+    display: flex;
+    gap: 5px;
+    
+    
+}
+.flex>div>p{
+    
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
+.bottom{
+    margin: 20px;
+    padding: 50px;
+    color: white;
+}
+h3{
+    margin-bottom: 10px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-size: 1.5em;
+}
+.bflex{
+    display: flex;
+    justify-content: space-between
+}
+.bfp{
+    width: 50%;
+    font-size: 1.3em;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 3px 3px;
+}
+.bflex>div>img{
+    border-radius: 20px;
+}
+footer{
+    margin: 20px;
+    padding: 50px;
+    color: white;
+}
+footer>a{
+    color: white;
+}
